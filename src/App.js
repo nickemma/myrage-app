@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import { useState, useEffect } from 'react';
 import './App.css';
+import GetCoins from './components/GetCoins';
 
-function App() {
+
+const App = () => {
+  const [fetchCoins, setFetchCoins] = useState([]);
+
+  useEffect(() => {
+    const fetchCoins = async () => {
+      const res = await fetch(
+        'https://coinranking1.p.rapidapi.com/coins?limit=12',
+        {
+          headers: {
+            'x-rapidAPI-key':
+              '0123393eeamsh1bee10a3a220057p1fbee7jsn7ef939fd62ca',
+            'x-rapidAPI-host': 'coinranking1.p.rapidapi.com',
+          },
+        }
+      );
+      const coin = await res.json();
+      console.log(coin);
+      setFetchCoins(coin.data);
+    };
+    fetchCoins();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <GetCoins fetchCoins={fetchCoins} />
   );
-}
+};
 
 export default App;
