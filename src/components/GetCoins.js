@@ -1,4 +1,6 @@
+import Article from './Article';
 import Description from './Description';
+import Hero from './Hero';
 import Home from './Home';
 import Navbar from './Navbar';
 import Card from './UI/Card';
@@ -10,8 +12,17 @@ const GetCoins = ({ fetchCoins }) => {
       <Home />
       <Description />
       {fetchCoins.coins?.map((item) => (
-        <Card key={item.uuid} name={item.name} img={item.iconUrl} />
+        <Card
+          key={item.uuid}
+          name={item.name}
+          img={item.iconUrl}
+          price={item.price}
+          market={item.marketCap}
+          change={item.change}
+        />
       ))}
+      <Hero />
+      <Article />
     </div>
   );
 };

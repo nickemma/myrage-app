@@ -1,0 +1,47 @@
+.hero {
+  background: #eafffd;
+}
+
+.hero .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+.hero .content {
+  flex: 1 1 40rem;
+}
+
+.hero .content span {
+  font-size: 2rem;
+  color: #333;
+}
+
+.hero .content h3 {
+  font-size: 4rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.hero .content p {
+  font-size: 1.8rem;
+  color: #333;
+  padding: 1rem 0;
+}
+
+.hero .image {
+  flex: 1 1 40rem;
+}
+
+.hero .image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hero a {
+  color: #2d3438;
+  font-size: 1.5rem;
+  font-weight: 600;
+}

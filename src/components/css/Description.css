@@ -34,3 +34,29 @@
 .tab-container .image-slide img {
   width: 100%;
 }
+
+.nav-tab {
+  margin-top: 10rem;
+}
+
+.nav-tab ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav-tab li {
+  margin-left: 2.5rem;
+  font-size: 2rem;
+  border-bottom: 2px solid #b2b6bb;
+  color: #b2b6bb;
+  cursor: pointer;
+}
+
+.nav-tab li:hover {
+  border-bottom: 2px solid #02ffe2;
+  color: #ebedf1;
+  transition: 1s;
+}
