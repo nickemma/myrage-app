@@ -1,0 +1,53 @@
+section {
+  padding: 0 9%;
+  min-height: 100vh;
+  padding-top: 9rem;
+  padding-bottom: 2rem;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.home .content {
+  flex: 1 1 50rem;
+}
+
+.home .content span {
+  font-size: 2.5rem;
+  color: #02ffe2;
+}
+
+.home .content h3 {
+  font-size: 5.5rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.home .content p {
+  font-size: 2rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.home .image {
+  flex: 1 1 35rem;
+}
+
+.home .image img {
+  width: 100%;
+  animation: float 3s linear infinite;
+}
+
+@keyframes float {
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-3.5rem);
+  }
+}

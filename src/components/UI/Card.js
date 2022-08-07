@@ -1,14 +1,17 @@
-import React from 'react'
-
+import React from 'react';
+import './Card.css';
 const Card = (props) => {
   return (
-    <section className='card'>
+    <div className='card'>
       <div className='card-inner'>
-        <h1>{props.name}</h1>
-        {/* <img src={props.img} alt="" /> */}
+        <h3>{props.name}</h3>
+        <img src={props.img} alt='' />
       </div>
-    </section>
+      <p>Price: {props.price}</p>
+      <p>Symbol: {props.symbol}</p>
+      <p>Daily Change: {props.change}</p>
+    </div>
   );
-}
+};
 
-export default Card
+export default Card;
