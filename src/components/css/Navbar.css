@@ -1,0 +1,46 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  padding: 1.5rem 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+.header .logo h3 {
+  color: #fff;
+  margin: 10px;
+  font-size: 2rem;
+}
+
+.header .navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.header .navbar li {
+  margin-left: 2.3rem;
+}
+
+.header .navbar a {
+  font-size: 2rem;
+  color: #fff;
+}
+.header .navbar a:hover {
+  color: #02ffe2;
+  cursor: pointer;
+}
+
+.header .navbar li:last-child a {
+  background: #02ffe2;
+  border-radius: 5rem;
+  padding: 7px 15px;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+}

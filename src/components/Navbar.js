@@ -1,23 +1,30 @@
+import './css/Navbar.css';
 const Navbar = () => {
   return (
-    <nav className='nav'>
-      <h2>MyRage</h2>
-      <ul>
-        <li>
-          <a href='/'>Home</a>
-        </li>
-        <li>
-          <a href='/'>Pricing</a>
-        </li>
-        <li>
-          <a href='/'>News</a>
-        </li>
-        <li>
-          <a href='/'>Contact</a>
-        </li>
-        <button type='button'>book a demo</button>
-      </ul>
-    </nav>
+    <header className='header'>
+      <div className='logo'>
+        <h3>MyRage</h3>
+      </div>
+      <nav className='navbar'>
+        <ul>
+          <li>
+            <a href='/'>Home</a>
+          </li>
+          <li>
+            <a href='/'>Pricing</a>
+          </li>
+          <li>
+            <a href='/'>News</a>
+          </li>
+          <li>
+            <a href='/'>Contact</a>
+          </li>
+          <li>
+            <a href='/'>book A Demo</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 };
 
