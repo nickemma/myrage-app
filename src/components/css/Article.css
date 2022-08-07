@@ -20,7 +20,7 @@
 .article .feature-item:hover {
   background-color: #02ffe132;
   border-radius: 2rem;
-  box-shadow: 0 2px 19px 0 rgba (2, 255, 226, 0.27);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.27);
 }
 
 .article .feature-item img,
