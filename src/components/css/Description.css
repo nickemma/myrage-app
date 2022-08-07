@@ -1,0 +1,36 @@
+.tab-container .content-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+.tab-container .content {
+  flex: 1 1 40rem;
+}
+
+.tab-container .content span {
+  font-size: 2.5rem;
+  color: #02ffe2;
+}
+
+.tab-container .content h3 {
+  font-size: 4.5rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.tab-container .content p {
+  font-size: 2rem;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.tab-container .image-slide {
+  flex: 1 1 40rem;
+}
+
+.tab-container .image-slide img {
+  width: 100%;
+}
