@@ -1,14 +1,17 @@
+import Image from '../components/images/image3.png';
+import './css/Home.css';
 const Home = () => {
- return (
-   <section className='home'>
-     <div className="box-content">
-       <h2>
-         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam ab
-         alias, neque voluptate iusto dolorum temporibus labore ipsam ipsum in.
-       </h2>
-     </div>
-   </section>
- );
-}
- 
+  return (
+    <section className='home'>
+      <div className='box-content'>
+        <h2>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam ab
+          alias, neque voluptate iusto dolorum temporibus labore ipsam ipsum in.
+        </h2>
+        <img src={Image} alt='' />
+      </div>
+    </section>
+  );
+};
+
 export default Home;
