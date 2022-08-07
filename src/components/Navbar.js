@@ -3,7 +3,10 @@ const Navbar = () => {
   return (
     <header className='header'>
       <div className='logo'>
-        <h3>MyRage</h3>
+        <img
+          src='https://myrage321.netlify.app/static/media/Logo.de291d516ca7db8f6e665461b86c6692.svg'
+          alt=''
+        />
       </div>
       <nav className='navbar'>
         <ul>

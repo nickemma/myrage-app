@@ -11,10 +11,10 @@
   z-index: 999;
 }
 
-.header .logo h3 {
-  color: #fff;
-  margin: 10px;
-  font-size: 2rem;
+.header .logo img {
+  margin: 1.3rem;
+  width: 9rem;
+  cursor: pointer;
 }
 
 .header .navbar ul {

@@ -17,6 +17,18 @@
   transition: 0.2s ease-out;
 }
 
+.article .feature-item:hover {
+  background-color: #02ffe132;
+  border-radius: 2rem;
+  box-shadow: 0 2px 19px 0rgba (2, 255, 226, 0.27);
+  -webkit-box-shadow: 0 2px 19px 0 rgb(2 255 226 / 27%);
+}
+
+.article .feature-item2:hover {
+  border: 2px solid #ebedf1;
+  transform: translateY(-10px);
+}
+
 .article .feature-item img,
 .article .feature-item2 img {
   padding-bottom: 10px;
@@ -42,6 +54,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .article .feature-item2 {
@@ -50,13 +63,47 @@
   color: #ebedf1;
   padding: 20px;
   margin: 40px 20px;
-  transition: 0.1s;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .schedule .demo {
   display: flex;
-  gap: 10px;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 60px;
+}
+
+.schedule .demo h2 {
+  color: #02ffe2;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.title-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-text span {
+  color: #ebedf1;
+  margin-bottom: 1rem;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.title-text a button {
+  background: #02ffe2;
+  border-radius: 10rem;
+  color: #000;
+  font-size: 0.9rem;
+  padding: 10px 4px;
+  text-transform: uppercase;
+  transition: 0.2s ease;
+  width: 10rem;
+  cursor: pointer;
 }

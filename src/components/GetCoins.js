@@ -1,5 +1,6 @@
 import Article from './Article';
 import Description from './Description';
+import Footer from './Footer';
 import Hero from './Hero';
 import Home from './Home';
 import Navbar from './Navbar';
@@ -23,6 +24,7 @@ const GetCoins = ({ fetchCoins }) => {
       ))}
       <Hero />
       <Article />
+      <Footer />
     </div>
   );
 };
