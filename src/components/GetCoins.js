@@ -12,16 +12,18 @@ const GetCoins = ({ fetchCoins }) => {
       <Navbar />
       <Home />
       <Description />
-      {fetchCoins.coins?.map((item) => (
-        <Card
-          key={item.uuid}
-          name={item.name}
-          img={item.iconUrl}
-          price={item.price}
-          market={item.marketCap}
-          change={item.change}
-        />
-      ))}
+      <section className='card-container'>
+        {fetchCoins.coins?.map((item) => (
+          <Card
+            key={item.uuid}
+            name={item.name}
+            img={item.iconUrl}
+            price={item.price}
+            symbol={item.symbol}
+            change={item.change}
+          />
+        ))}
+      </section>
       <Hero />
       <Article />
       <Footer />

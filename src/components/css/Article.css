@@ -20,13 +20,7 @@
 .article .feature-item:hover {
   background-color: #02ffe132;
   border-radius: 2rem;
-  box-shadow: 0 2px 19px 0rgba (2, 255, 226, 0.27);
-  -webkit-box-shadow: 0 2px 19px 0 rgb(2 255 226 / 27%);
-}
-
-.article .feature-item2:hover {
-  border: 2px solid #ebedf1;
-  transform: translateY(-10px);
+  box-shadow: 0 2px 19px 0 rgba (2, 255, 226, 0.27);
 }
 
 .article .feature-item img,
@@ -65,6 +59,11 @@
   margin: 40px 20px;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.article .feature-item2:hover {
+  border: 2px solid #ebedf1;
+  transform: translateY(-10px);
 }
 
 .schedule .demo {
