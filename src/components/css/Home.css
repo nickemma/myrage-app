@@ -44,7 +44,7 @@ section {
 
 @keyframes float {
   100% {
-    transform: translateY(0rem);
+    transform: translateY(0);
   }
 
   50% {
