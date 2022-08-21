@@ -19,7 +19,7 @@ The pull request is opened to get a review on the project and check for any requ
 
 ## Click here for live version
 
-- live demo: [coming soon]()
+- live demo: [Live](https://myrage.netlify.app/)
 
 ## Getting Started
 
