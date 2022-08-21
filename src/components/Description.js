@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Panel from '../components/images/image1.png';
-import Panel2 from '../components/images/image2.png';
-import Panel3 from '../components/images/image3.png';
+import Panel from './images/image1.png';
+import Panel2 from './images/image2.png';
+import Panel3 from './images/image3.png';
 import './css/Description.css';
 
 const Description = () => {
@@ -18,7 +18,7 @@ const Description = () => {
           <span>FOR DEVS TEAMS</span>
           <h3>This Is A Special Benefit For Devs</h3>
           <p>
-            Get your customer's touch point in one single place across all
+            Get your customers touch point in one single place across all
             platforms and channels
           </p>
         </div>
@@ -31,7 +31,7 @@ const Description = () => {
           <span>ULTRA-FASTS RESULTS</span>
           <h3>Get Amazed By Powerful Results</h3>
           <p>
-            Get your customer's touch point in one single place across all
+            Get your customers touch point in one single place across all
             platforms and channels
           </p>
         </div>
@@ -44,7 +44,7 @@ const Description = () => {
           <span>WIDE ACTIVATIONS</span>
           <h3>Work Great With Your Teams Seamlessly</h3>
           <p>
-            Get your customer's touch point in one single place across all
+            Get your customers touch point in one single place across all
             platforms and channels
           </p>
         </div>
