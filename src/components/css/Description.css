@@ -1,9 +1,13 @@
 .tab-container .content-item {
-  display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 2rem;
+  display: none;
+}
+
+.tab-container .content-item.active {
+  display: flex;
 }
 
 .tab-container .content {
@@ -53,6 +57,11 @@
   border-bottom: 2px solid #b2b6bb;
   color: #b2b6bb;
   cursor: pointer;
+}
+
+.nav-tab li.active {
+  color: #02ffe2;
+  border-bottom: 2px solid #02ffe2;
 }
 
 .nav-tab li:hover {
